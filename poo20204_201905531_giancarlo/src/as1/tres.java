@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo20204_201905531_giancarlo.as1;
+package as1;
 
 import java.util.Arrays;
 import javax.swing.JOptionPane;
