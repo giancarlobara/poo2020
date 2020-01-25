@@ -28,11 +28,12 @@ public class Funcionario {
         this.departamento = departamento;
         this.endereco = endereco;
     }
+
     public void calcularBonificacao(double n) {
-            this.salario *= (1 + (n / 100));
-	}
-    
-    public String toString(){
-        return matricula + " - " + cpf + " - " + nome + " - Departamento: " + departamento + " - Cargo: " + cargo + " - Salario:R$ " + salario + "\n";  
+        this.salario *= (1 + (n / 100));
+    }
+
+    public String toString() {
+        return matricula + " - " + cpf + " - " + nome + " - Departamento: " + departamento + " - Cargo: " + cargo + " - Salario:R$ " + salario + "\n";
     }
 }

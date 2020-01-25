@@ -20,43 +20,43 @@ public class TestaFuncionario {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite a matricula:");
         matricula = sc.nextInt();
-        String rua,complemento,bairro,cidade,estado,cpf,nome,cargo,departamento;
-        int numero,quadra,lote;
+        String rua, complemento, bairro, cidade, estado, cpf, nome, cargo, departamento;
+        int numero, quadra, lote;
         double salario;
         while (matricula != 0) {
             sc.nextLine();
             System.out.println("Digite a rua:");
-            rua = sc.nextLine(); 
+            rua = sc.nextLine();
             System.out.println("Digite o numero:");
             numero = sc.nextInt();
             System.out.println("Digite a quadra:");
             quadra = sc.nextInt();
             System.out.println("Digite o lote:");
             lote = sc.nextInt();
-             sc.nextLine();
+            sc.nextLine();
             System.out.println("Digite o complemento:");
-            complemento = sc.nextLine(); 
+            complemento = sc.nextLine();
             System.out.println("Digite o bairro:");
-            bairro = sc.nextLine(); 
+            bairro = sc.nextLine();
             System.out.println("Digite a cidade:");
-            cidade = sc.nextLine(); 
+            cidade = sc.nextLine();
             System.out.println("Digite o estado:");
-            estado = sc.nextLine(); 
-            Endereco e = new Endereco(rua, numero, quadra, lote, complemento, bairro, cidade, estado); 
+            estado = sc.nextLine();
+            Endereco e = new Endereco(rua, numero, quadra, lote, complemento, bairro, cidade, estado);
             System.out.println("Digite o cpf:");
-            cpf = sc.nextLine(); 
+            cpf = sc.nextLine();
             System.out.println("Digite o nome:");
-            nome = sc.nextLine(); 
+            nome = sc.nextLine();
             System.out.println("Digite o cargo:");
-            cargo = sc.nextLine(); 
+            cargo = sc.nextLine();
             System.out.println("Digite o salario:");
             salario = sc.nextDouble();
             sc.nextLine();
             System.out.println("Digite o departamento:");
-            departamento = sc.nextLine(); 
+            departamento = sc.nextLine();
             Funcionario f = new Funcionario(cpf, matricula, nome, cargo, salario, departamento, e);
             funcionarios.add(f);
-            
+
             System.out.println("Digite a matricula:");
             matricula = sc.nextInt();
         }
