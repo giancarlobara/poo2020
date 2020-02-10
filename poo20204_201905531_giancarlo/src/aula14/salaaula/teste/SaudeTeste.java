@@ -55,4 +55,8 @@ public class SaudeTeste {
 		double imc = saude.getPeso() / (saude.getAltura()*saude.getAltura());
 		assertEquals(saude.calculaIMC(), 23,0.5);
 	};
+
+    private void assertTrue(boolean equals) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
