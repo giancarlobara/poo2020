@@ -5,8 +5,6 @@
  */
 package aula14.salaaula.as12;
 
-import aula10.as8b.exercicio01.*;
-
 /**
  *
  * @author usuario

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula14.salaaula.as12;
+package aula10.as8b.exercicio01ao04;
 
 /**
  *
@@ -13,6 +13,10 @@ public abstract class Animal {
 
     protected String nome;
     protected int idade;
+
+    public void emitirSom() {
+        System.out.println("");
+    }
 
     public String getNome() {
         return nome;
@@ -29,14 +33,6 @@ public abstract class Animal {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-
-    public Animal(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-
-    public void emitirSom() {
-        System.out.println("");
-    }
+     
 }
 

@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula10.as8b.exercicio01;
+package aula10.as8b.exercicio01ao04;
 
 /**
  *
  * @author usuario
  */
 public class Preguica extends Animal{
+
+    public Preguica() {
+    }
     public void subirArvore()
 	{
 		System.out.println("Preguica subindo em árvores");
